@@ -8,7 +8,7 @@ SELECT * FROM ST_Hexnet(side_length, 'geometry_table', 'geometry_column', SRID);
 
 **Note:** Side length is in the units of the specified SRID and must be an integer.
 
-
+<br><br>
 
 <img src="https://raw.githubusercontent.com/DallasMorningNews/hexnet/master/dallas.png" width="350px" style="max-width:50%;">
 
