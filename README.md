@@ -6,7 +6,7 @@ A PL/pgSQL function that will create hexagonal bins of side length X bounding a 
 SELECT * FROM ST_Hexnet(side_length, 'geometry_table', 'geometry_column', SRID);
 ```
 
-_**Note:** Side length is in the units of the specified SRID and must be an integer._
+_**Note:** Side length is in the units of the specified SRID **and** must be an integer._
 
 <br>
 
