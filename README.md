@@ -13,7 +13,7 @@ SELECT * FROM ST_Hexnet(side_length, 'geometry_table', 'geometry_column', SRID);
 <img src="https://raw.githubusercontent.com/DallasMorningNews/hexnet/master/dallas.png" width="350px" style="max-width:50%;">
 
 ```PostgreSQL
-SELECT * FROM ST_Hexnet(10805, 'DFW_counties', 'geom_4269',32613)
+SELECT * FROM ST_Hexnet(10805, 'DFW_census_blocks', 'geom_4269',32613)
 ```
 
 <img src="https://raw.githubusercontent.com/DallasMorningNews/hexnet/master/dallas_hex.png" width="350px" style="max-width:50%;">
