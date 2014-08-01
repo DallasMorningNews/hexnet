@@ -7,3 +7,7 @@ SELECT * FROM ST_Hexnet(side_length, 'geometry_table', 'geometry_column', SRID);
 ```
 
 **Note:** Side length is in the units of the specified SRID and must be an integer.
+
+
+![Image of Yaktocat]()
+https://github.com/DallasMorningNews/hexnet/blob/master/hexnet.sql
