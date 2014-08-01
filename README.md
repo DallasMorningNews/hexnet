@@ -1,6 +1,6 @@
 #hexnet
 ======
-A PostgreSQL function that will create hexagonal bins of side length X bounding a collection of polygon geometry.
+A PL/pgSQL function that will create hexagonal bins of side length X bounding a collection of polygon geometry.
 
 ```PostgreSQL
 SELECT * FROM ST_Hexnet(side_length, 'geometry_table', 'geometry_column', SRID);
