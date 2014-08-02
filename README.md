@@ -17,7 +17,7 @@ SELECT * FROM ST_Hexnet(10805, 'DFW_census_blocks', 'geom_4269',32613)
 ```
 
 <img src="https://raw.githubusercontent.com/DallasMorningNews/hexnet/master/examples/dallas_hex.png" width="350px" style="max-width:50%;">
-<br><br>Careful geometrists will notice a magic number in the formula at:
+<br><br>__Careful geometrists__ will notice a magic number in the formula at:
 ```
 generate_series(xmin::integer - $1, (xmax*2)::integer + $1, $1*2) as x_series,
 ```
@@ -33,4 +33,4 @@ xmax*2
 ```
 ST_Intersects(...)
 ```
-<img src="https://raw.githubusercontent.com/DallasMorningNews/hexnet/master/examples/usa.png" width="250px" style="max-width:50%;">
+<img src="https://raw.githubusercontent.com/DallasMorningNews/hexnet/master/examples/usa.png" width="230px" style="max-width:50%;">
