@@ -29,6 +29,8 @@ xmax*1
 ```
 xmax*2
 ```
-<img src="https://raw.githubusercontent.com/DallasMorningNews/hexnet/master/examples/usa_2x.png" width="250px" style="max-width:50%;">
-<br>Final:
+<img src="https://raw.githubusercontent.com/DallasMorningNews/hexnet/master/examples/usa_2x.png" width="270px" style="max-width:50%;">
+```
+ST_Intersects(...)
+```
 <img src="https://raw.githubusercontent.com/DallasMorningNews/hexnet/master/examples/usa.png" width="250px" style="max-width:50%;">
