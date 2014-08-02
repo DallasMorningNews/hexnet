@@ -17,3 +17,8 @@ SELECT * FROM ST_Hexnet(10805, 'DFW_census_blocks', 'geom_4269',32613)
 ```
 
 <img src="https://raw.githubusercontent.com/DallasMorningNews/hexnet/master/dallas_hex.png" width="350px" style="max-width:50%;">
+<br><br>Careful geometrists will notice a magic number in the formula at:
+```
+generate_series(xmin::integer - $1, (xmax*2)::integer + $1, $1*2) as x_series,
+```
+That number adds extra tessellated hexagons because the length around a regular polyhedron circumscribing a sphere is longer than that of the sphere's circumference. Most of the extra panels are dropped in the outer query.
