@@ -17,7 +17,8 @@ SELECT * FROM ST_Hexnet(10805, 'DFW_census_blocks', 'geom_4269',32613)
 ```
 
 <img src="https://raw.githubusercontent.com/DallasMorningNews/hexnet/master/examples/dallas_hex.png" width="350px" style="max-width:50%;">
-<br><br>__Careful geometrists__ will notice a magic number in the formula at:
+
+<br><img src="http://www.myteacherpages.com/webpages/sstein/photos/889154/cartographer.gif" width="120px" style="max-width:50%;"><br>__Careful geometrists__ will notice a magic number in the formula at:
 ```
 generate_series(xmin::integer - $1, (xmax*2)::integer + $1, $1*2) as x_series,
 ```
